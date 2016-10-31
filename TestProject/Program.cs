@@ -12,6 +12,9 @@ namespace TestProject
         {
             Console.WriteLine("This is a duplicate");
             Console.WriteLine("This is a duplicate");
+
+            int a = 5; a += 6;
+            int b = 5; b += 6;
         }
     }
 }
