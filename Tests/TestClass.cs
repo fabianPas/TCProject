@@ -43,16 +43,10 @@ namespace Tests
         }
 
         [Test]
-        public void TestDivisionDetectDuplicates()
+        public void TestDivision()
         {
             var x = 3;
             var y = 3;
-
-            x = 3;
-            y = 3;
-
-            x = 3;
-            y = 3;
 
             Assert.AreEqual(1, x / y);
         }
