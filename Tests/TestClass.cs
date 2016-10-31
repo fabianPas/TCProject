@@ -50,5 +50,14 @@ namespace Tests
 
             Assert.AreEqual(1, x / y);
         }
+
+        [Test]
+        public void TestMultiplication()
+        {
+            var x = 6;
+            var y = 6;
+
+            Assert.AreEqual(36, x * y);
+        }
     }
 }
