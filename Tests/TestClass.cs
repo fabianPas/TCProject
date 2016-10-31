@@ -41,5 +41,14 @@ namespace Tests
 
             Assert.AreEqual(120, x);
         }
+
+        [Test]
+        public void TestDivision()
+        {
+            var x = 3;
+            var y = 3;
+
+            Assert.AreEqual(1, x / y);
+        }
     }
 }
